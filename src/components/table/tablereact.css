@@ -1,0 +1,48 @@
+.red{
+    color: red;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin: 20px 0;
+}
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-size: 1.2em;
+    color: #666;
+}
+
+.search{
+}
+
+.search, .searchBtn {
+    display: inline-block;
+    margin: 0 auto; /* Alinea verticalmente si es necesario */
+  }
+
+.blockSearch
+{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 100%;
+    float: left;
+    text-align: left;
+}

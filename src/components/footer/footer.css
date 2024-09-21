@@ -1,0 +1,19 @@
+footer{
+    background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
+}
+
+img{
+    float: left;
+    width: 120px;
+    height: 50px;
+}
+
+.container-footer{
+    color: white;
+    background: linear-gradient(to right, black, rgb(233, 228, 154));
+}
